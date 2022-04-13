@@ -57,6 +57,7 @@ export default class TagCloud extends React.Component {
 			return;
 		}
 
+		console.log(22);
 		const animation = () => {
 			this.rotateX();
 			this.rotateY();
